@@ -14,6 +14,8 @@
 
       <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
         <a
+          target="_blank"
+          rel="noreferrer"
           href="https://www.google.com/maps?saddr=Current+Location&daddr=Str.+Fragkou+26,+Larisa+412+21,+Greece"
           class="flex flex-col items-center px-4 py-3 text-gray-700 rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-indigo-700"
         >

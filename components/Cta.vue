@@ -11,12 +11,12 @@
         >
           {{ $attrs.data.title }}
         </h2>
-        <a
+        <NuxtLink
           class="flex-shrink-0 text-white bg-white text-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-gray-300 rounded text-lg mt-10 sm:mt-0"
-          :href="$attrs.data.buttonLink"
+          :to="$attrs.data.buttonLink"
         >
           {{ $attrs.data.buttonText }}
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>

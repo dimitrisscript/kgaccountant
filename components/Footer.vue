@@ -4,8 +4,8 @@
       <div
         class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col"
       >
-        <a
-          href="/"
+        <NuxtLink
+          to="/"
           aria-label="home"
           class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
         >
@@ -23,13 +23,13 @@
               d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
             ></path>
           </svg>
-        </a>
+        </NuxtLink>
         <p class="text-sm text-gray-800 sm:ml-6 sm:mt-0 mt-4">
           © 2020 {{ $attrs.data.title }} —
           <span class="text-gray-700 text-xs ml-1">Powered by</span>
           <a
             href="https://dimitris.siakavelis.gr"
-            rel="noopener noreferrer"
+            rel="noreferrer"
             class="text-gray-700 text-xs"
             target="_blank"
             >Dimitris Siakavelis</a

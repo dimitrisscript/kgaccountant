@@ -15,12 +15,12 @@
           {{ $attrs.data.text }}
         </p>
         <div class="flex justify-center">
-          <a
+          <NuxtLink
             class="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
-            :href="$attrs.data.buttonHref"
+            :to="$attrs.data.buttonHref"
           >
             {{ $attrs.data.buttonText }}
-          </a>
+          </NuxtLink>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
