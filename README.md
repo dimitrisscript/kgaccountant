@@ -1,7 +1,7 @@
 # kgaccountant
 Code for https://kgaccountant.gr 
 
-Built with [NuxtJs](https://nuxtjs.org)
+Built with [NuxtJs](https://nuxtjs.org) & [TailwindCSS](https://tailwindcss.com)
 
 ## Build Setup
 
