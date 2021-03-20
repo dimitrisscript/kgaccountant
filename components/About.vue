@@ -8,7 +8,7 @@
           class="object-cover object-center rounded"
           alt="hero"
           loading="lazy"
-          src="https://dummyimage.com/720x500"
+          src="/kostas.jpg"
         />
       </div>
       <div
