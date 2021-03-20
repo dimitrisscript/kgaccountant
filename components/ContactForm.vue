@@ -146,6 +146,10 @@ export default {
   },
   methods: {
     async sendMessage() {
+      if (this.email === '' || this.message === '') {
+        alert('Παρακαλούμε συμπληρώστε τα πεδία.')
+        return
+      }
       const data = await fetch('https://formcarry.com/s/JjnyzCOOQo', {
         method: 'POST',
         headers: {
