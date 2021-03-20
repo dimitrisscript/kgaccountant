@@ -1,5 +1,5 @@
 <template>
-  <header class="text-gray-600 body-font">
+  <header class="text-gray-800 body-font">
     <div
       class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
     >
@@ -26,8 +26,8 @@
       <nav
         class="md:ml-auto flex flex-wrap items-center text-base justify-center"
       >
-        <NuxtLink to="/" class="mr-5 hover:text-gray-900">Αρχική</NuxtLink>
-        <NuxtLink to="/contact" class="mr-5 hover:text-gray-900"
+        <NuxtLink to="/" class="mr-5 hover:text-blue-500">Αρχική</NuxtLink>
+        <NuxtLink to="/contact" class="mr-5 hover:text-blue-500"
           >Επικοινωνία</NuxtLink
         >
       </nav>

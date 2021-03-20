@@ -24,13 +24,13 @@
             ></path>
           </svg>
         </a>
-        <p class="text-sm text-gray-600 sm:ml-6 sm:mt-0 mt-4">
+        <p class="text-sm text-gray-800 sm:ml-6 sm:mt-0 mt-4">
           © 2020 {{ data.title }} —
-          <span class="text-gray-500 ml-1">Powered by</span>
+          <span class="text-gray-700 text-xs ml-1">Powered by</span>
           <a
             href="https://dimitris.siakavelis.gr"
             rel="noopener noreferrer"
-            class="text-gray-500"
+            class="text-gray-700 text-xs"
             target="_blank"
             >Dimitris Siakavelis</a
           >
