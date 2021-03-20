@@ -9,17 +9,17 @@
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
         >
-          {{ data.title }}
+          {{ $attrs.data.title }}
         </h1>
         <p class="mb-8 leading-relaxed">
-          {{ data.text }}
+          {{ $attrs.data.text }}
         </p>
         <div class="flex justify-center">
           <a
             class="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
-            :href="data.buttonHref"
+            :href="$attrs.data.buttonHref"
           >
-            {{ data.buttonText }}
+            {{ $attrs.data.buttonText }}
           </a>
         </div>
       </div>
@@ -33,22 +33,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  props: {
-    data: {
-      type: Object,
-      required: false,
-      default: () => {
-        return {
-          title: '',
-          text: '',
-          buttonText: '',
-          buttonHref: '',
-        }
-      },
-    },
-  },
-}
-</script>

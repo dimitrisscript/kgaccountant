@@ -17,7 +17,7 @@
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
         >
-          {{ data.title }}
+          {{ $attrs.data.title }}
         </h1>
         <p class="mb-8 leading-relaxed">
           Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
@@ -29,19 +29,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  props: {
-    data: {
-      type: Object,
-      required: false,
-      default: () => {
-        return {
-          title: '',
-        }
-      },
-    },
-  },
-}
-</script>

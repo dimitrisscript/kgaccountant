@@ -25,7 +25,7 @@
           </svg>
         </a>
         <p class="text-sm text-gray-800 sm:ml-6 sm:mt-0 mt-4">
-          © 2020 {{ data.title }} —
+          © 2020 {{ $attrs.data.title }} —
           <span class="text-gray-700 text-xs ml-1">Powered by</span>
           <a
             href="https://dimitris.siakavelis.gr"
@@ -63,19 +63,3 @@
     </div>
   </footer>
 </template>
-
-<script>
-export default {
-  props: {
-    data: {
-      type: Object,
-      required: false,
-      default: () => {
-        return {
-          title: '',
-        }
-      },
-    },
-  },
-}
-</script>
