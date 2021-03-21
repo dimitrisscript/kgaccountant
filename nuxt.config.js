@@ -40,7 +40,7 @@ export default {
         href: '/favicons/safari-pinned-tab.svg',
         color: '#5bbad5',
       },
-      { rel: 'shortcut icon', href: '/favicons/favicon.ico' }
+      { rel: 'shortcut icon', href: '/favicons/favicon.ico' },
     ],
   },
 
@@ -56,9 +56,12 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    ['@nuxtjs/eslint-module', {
-      fix: true
-    }],
+    [
+      '@nuxtjs/eslint-module',
+      {
+        fix: true,
+      },
+    ],
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
