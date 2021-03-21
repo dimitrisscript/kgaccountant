@@ -83,6 +83,28 @@ export default {
           content:
             'Ο δικός σας έμπιστος λογιστής στη Λάρισα, Κώστας Γρηγορίου.',
         },
+        {
+          property: 'og:title',
+          content:
+            'Ο δικός σας έμπιστος λογιστής στη Λάρισα, Κώστας Γρηγορίου.',
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:url',
+          content: `${process.env.baseUrl}${this.$route.path}`,
+        },
+        {
+          property: 'og:description',
+          content:
+            'Ο δικός σας έμπιστος λογιστής στη Λάρισα, Κώστας Γρηγορίου.',
+        },
+        {
+          property: 'og:image',
+          content: `${process.env.baseUrl}/opengraph.jpg`,
+        },
       ],
     }
   },
