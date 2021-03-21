@@ -6,6 +6,10 @@ export default {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
   },
 
+  router: {
+    trailingSlash: false,
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Κώστας Γρηγορίου',
