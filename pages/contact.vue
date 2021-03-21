@@ -33,9 +33,22 @@ export default {
       titleTemplate: '%s - Επικοινωνία',
       meta: [
         {
-          hid: 'contact',
           name: 'description',
-          content: 'Επικοινωνία με τον λογιστή Κώστα Γρηγορίου',
+          content:
+            'Επικοινωνήστε με τον δικό σας έμπιστο λογιστή στη Λάρισα, Κώστα Γρηγορίου.',
+        },
+        {
+          property: 'og:title',
+          content: 'Κώστας Γρηγορίου',
+        },
+        {
+          property: 'og:url',
+          content: `${process.env.baseUrl}${this.$route.path}`,
+        },
+        {
+          property: 'og:description',
+          content:
+            'Επικοινωνήστε με τον δικό σας έμπιστο λογιστή στη Λάρισα, Κώστα Γρηγορίου.',
         },
       ],
     }

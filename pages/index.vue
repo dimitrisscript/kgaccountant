@@ -78,19 +78,13 @@ export default {
       titleTemplate: '%s - Αρχική',
       meta: [
         {
-          hid: 'contact',
           name: 'description',
           content:
             'Ο δικός σας έμπιστος λογιστής στη Λάρισα, Κώστας Γρηγορίου.',
         },
         {
           property: 'og:title',
-          content:
-            'Ο δικός σας έμπιστος λογιστής στη Λάρισα, Κώστας Γρηγορίου.',
-        },
-        {
-          property: 'og:type',
-          content: 'website',
+          content: 'Κώστας Γρηγορίου',
         },
         {
           property: 'og:url',
@@ -100,10 +94,6 @@ export default {
           property: 'og:description',
           content:
             'Ο δικός σας έμπιστος λογιστής στη Λάρισα, Κώστας Γρηγορίου.',
-        },
-        {
-          property: 'og:image',
-          content: `${process.env.baseUrl}/opengraph.jpg`,
         },
       ],
     }

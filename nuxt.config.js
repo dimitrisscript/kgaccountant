@@ -19,6 +19,14 @@ export default {
       { name: 'msapplication-TileColor', content: '#da532c' },
       { name: 'msapplication-config', content: '/favicons/browserconfig.xml' },
       { name: 'theme-color', content: '#ffffff' },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:image',
+        content: `${process.env.baseUrl}/opengraph.jpg`,
+      },
     ],
     link: [
       {
