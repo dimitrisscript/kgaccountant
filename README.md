@@ -1,6 +1,6 @@
 # kgaccountant
 
-Built with [NuxtJs](https://nuxtjs.org) & [TailwindCSS](https://tailwindcss.com)
+Code for [KGaccountant](https://kgaccountant-staging.netlify.app/), built with [NuxtJs](https://nuxtjs.org) & [TailwindCSS](https://tailwindcss.com)
 
 ## Build Setup
 
@@ -19,4 +19,3 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
