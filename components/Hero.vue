@@ -28,6 +28,8 @@
           class="object-cover object-center rounded"
           alt="hero"
           src="/office.jpg"
+          width="512"
+          height="341"
         />
       </div>
     </div>

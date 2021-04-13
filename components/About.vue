@@ -9,6 +9,8 @@
           alt="hero"
           loading="lazy"
           src="/kostas.jpg"
+          width="512"
+          height="341"
         />
       </div>
       <div
