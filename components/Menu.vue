@@ -7,7 +7,13 @@
         to="/"
         class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
       >
-        <img src="/logo.svg" class="h-12" />
+        <img
+          src="/logo.svg"
+          class="h-12"
+          alt="kgaccountant logo"
+          width="48"
+          height="48"
+        />
         <span class="ml-3 text-xl">Κώστας Γρηγορίου</span>
       </NuxtLink>
       <nav

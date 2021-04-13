@@ -9,7 +9,13 @@
           aria-label="home"
           class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
         >
-          <img src="/logo.svg" class="h-8" />
+          <img
+            src="/logo.svg"
+            class="h-8"
+            alt="kgaccountant logo"
+            width="48"
+            height="48"
+          />
         </NuxtLink>
         <p class="text-sm text-gray-800 sm:ml-6 sm:mt-0 mt-4">
           © 2020 {{ $attrs.data.title }} —
