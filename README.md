@@ -1,6 +1,6 @@
 # kgaccountant
 
-Code for [KGaccountant](https://kgaccountant-staging.netlify.app/), built with [NuxtJs](https://nuxtjs.org) & [TailwindCSS](https://tailwindcss.com)
+Code for [KGaccountant](https://kgaccountant-staging.netlify.app/), built with [NuxtJs](https://nuxtjs.org), [TailwindCSS](https://tailwindcss.com) & [Prismic CMS](https://prismic.io)
 
 ## Build Setup
 
