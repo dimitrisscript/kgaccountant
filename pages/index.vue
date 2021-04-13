@@ -2,8 +2,7 @@
   <div>
     <Menu />
     <Hero :data="heroData" />
-    <Cards :data="cards1" />
-    <Cards :data="cards2" />
+    <Cards :data="cards" :title="cardsTitle" />
     <About :data="about" />
     <Cta :data="cta" />
     <Footer :data="footer" />
@@ -21,42 +20,8 @@ export default {
         buttonText: 'Επικοινωνία',
         buttonHref: '/contact',
       },
-      cards1: {
-        title: 'Υπηρεσίες',
-        card1: {
-          title: 'Φορολογικές δηλώσεις',
-          text:
-            'Αναλαμβάνω να πραγματοποιήσω τις φορολογικές δηλώσεις σας, είτε πρόκειται για δηλώσεις φυσικών Προσώπων ή επιχειρήσεων.',
-        },
-        card2: {
-          title: 'Συστάσεις - Ενάρξεις - Διακοπές - Μεταβολές',
-          text:
-            'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-        },
-        card3: {
-          title: "Τήρηση βιβλίων Β' και Γ' κατηγορίας",
-          text:
-            'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing  microdosing tousled waistcoat.',
-        },
-      },
-      cards2: {
-        title: '',
-        card1: {
-          title: 'Ενημέρωση βιβλίου απογραφής',
-          text:
-            'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-        },
-        card2: {
-          title: 'Περιοδικές και εκκαθαριστικές δηλώσεις ΦΠΑ',
-          text:
-            'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-        },
-        card3: {
-          title: 'Προσωρινές και οριστικές δηλώσεις ΦΜΥ',
-          text:
-            'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing  microdosing tousled waistcoat.',
-        },
-      },
+      cards: {},
+      cardsTitle: 'Υπηρεσίες',
       about: {
         title: 'Σχετικά με εμένα',
         text:
@@ -71,6 +36,11 @@ export default {
         title: 'Κώστας Γρηγορίου',
       },
     }
+  },
+  async fetch() {
+    this.cards = await this.$prismic.api.query(
+      this.$prismic.predicates.at('document.type', 'services')
+    )
   },
   head() {
     return {

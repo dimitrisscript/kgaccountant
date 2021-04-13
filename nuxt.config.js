@@ -72,7 +72,13 @@ export default {
     ],
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/prismic',
   ],
+
+  prismic: {
+    endpoint: 'https://kgaccountant.cdn.prismic.io/api/v2',
+    /* see configuration for more */
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
